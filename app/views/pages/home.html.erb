@@ -1,4 +1,20 @@
-<h1>Home Page</h1>
+<div id="page-content">
+    <div class="container" id="home-container">
+        <div class="p-5 mb-4 text-center">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold text-light">Alpha Blog</h1>
+                <p class="fs-4 text-light">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                <button class="btn btn-light btn-lg" type="button">Sign Up!</button>
+            </div>
+        </div>
+    </div>
+    
+    <%= link_to 'Articles Listing', articles_path %>
+    <%= link_to 'About Page', about_path %>
+</div>
 
-<%= link_to 'Articles Listing', articles_path %>
-<%= link_to 'About Page', about_path %>
+<footer id="sticky-footer" class="py-4">
+    <div class="container">
+        <span>Copyright &copy; Your Website<span>
+    </div>
+</footer>
